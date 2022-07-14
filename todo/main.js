@@ -2,11 +2,6 @@ document.querySelector('#push').onclick = () => {
     if(document.querySelector('#newtask input').value === '') {
         alert('Please enter a todo');
     }else{
-        // let newTask = document.createElement('li');
-        // newTask.innerHTML = document.querySelector('#newtask input').value;
-        // document.querySelector('#tasks').appendChild(newTask);
-        // document.querySelector('#newtask input').value = '';
-
 
         document.querySelector('#tasks').innerHTML += `
             <div class="task">
